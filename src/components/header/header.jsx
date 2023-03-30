@@ -1,10 +1,11 @@
-import logo from '../../assets/logo/bankarglogo.png'
+
+import './header.css'
 
 function Header() {
     return (
         <header>
             <div className="logo-container">
-                <img src={logo} alt="" />
+                <p className='company-name'>Bankarg</p>
             </div>
             <div className='menu-container'>
                 <i class='bx bx-menu'></i>
