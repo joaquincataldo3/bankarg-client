@@ -1,7 +1,13 @@
 
 import './header.css'
+import { useSelector } from 'react-redux'
 
 function Header() {
+
+    useSelector(store => {
+        console.log(store)
+    })
+
     return (
         <header>
             <div className="logo-container">
